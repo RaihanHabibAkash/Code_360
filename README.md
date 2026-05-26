@@ -10,4 +10,6 @@
 
 [Solution 630475(Moderate)](https://www.naukri.com/code360/problems/implement-stack-with-linked-list_630475)
 
-[Solution p2099908(Easy)](https://www.naukri.com/code360/problems/queue-using-array-or-singly-linked-list_2099908)
+[Solution 2099908(Easy)](https://www.naukri.com/code360/problems/queue-using-array-or-singly-linked-list_2099908)
+
+[Solution 982771(Easy)](https://www.naukri.com/code360/problems/reverse-first-k-elements-of-queue_982771)
