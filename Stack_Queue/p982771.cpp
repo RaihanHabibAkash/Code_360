@@ -57,19 +57,13 @@ queue<int> reverseElements(queue<int> q, int k)
     queue<int> q2; stack<int> st;
 
     // Inserting the k values in stack
-    if(k > q.size()) {
-        for(int i = 0; i < q.size(); i++) {
-            st.push(q.front());
-            q.pop();
-        }
-    }
-    else {
-        for(int i = 0; i < k; i++) {
-            st.push(q.front());
-            q.pop();
-        }
+    int minNm = min(k, (int)q.size());
+    for(int i = 0; i < minNm; i++) {
+        st.push(q.front());
+        q.pop();
     }
 
+    // Inserting remaining values
     while(!st.empty()) {
         q2.push(st.top());
         st.pop();
