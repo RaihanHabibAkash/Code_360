@@ -9,3 +9,5 @@
 [Solution 3843991(Easy)](https://www.naukri.com/code360/problems/min-stack_3843991)
 
 [Solution 630475(Moderate)](https://www.naukri.com/code360/problems/implement-stack-with-linked-list_630475)
+
+[Solution p2099908(Easy)](https://www.naukri.com/code360/problems/queue-using-array-or-singly-linked-list_2099908)
