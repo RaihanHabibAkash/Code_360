@@ -7,3 +7,5 @@
 [Solution 982934(Easy)](https://www.naukri.com/code360/problems/reversing-a-queue_982934)
 
 [Solution 3843991(Easy)](https://www.naukri.com/code360/problems/min-stack_3843991)
+
+[Solution 630475(Moderate)](https://www.naukri.com/code360/problems/implement-stack-with-linked-list_630475)
