@@ -13,3 +13,5 @@
 [Solution 2099908(Easy)](https://www.naukri.com/code360/problems/queue-using-array-or-singly-linked-list_2099908)
 
 [Solution 982771(Easy)](https://www.naukri.com/code360/problems/reverse-first-k-elements-of-queue_982771)
+
+[Solution 1169465(Easy)](https://www.naukri.com/code360/problems/kevin-s-stack-problem_1169465)
