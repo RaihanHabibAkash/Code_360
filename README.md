@@ -15,3 +15,5 @@
 [Solution 982771(Easy)](https://www.naukri.com/code360/problems/reverse-first-k-elements-of-queue_982771)
 
 [Solution 1169465(Easy)](https://www.naukri.com/code360/problems/kevin-s-stack-problem_1169465)
+
+[Solution 985280(Easy)](https://www.naukri.com/code360/problems/max-stack_985280)
