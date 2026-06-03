@@ -17,3 +17,5 @@
 [Solution 1169465(Easy)](https://www.naukri.com/code360/problems/kevin-s-stack-problem_1169465)
 
 [Solution 985280(Easy)](https://www.naukri.com/code360/problems/max-stack_985280)
+
+[Solution 796002(Easy)](https://www.naukri.com/code360/problems/level-order-traversal_796002)
