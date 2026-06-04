@@ -75,7 +75,7 @@ int nodeLevel(TreeNode<int>* root, int searchedValue)
 
     while(!q.empty()) {
     // 1. node ber kore nia asha
-        int level = q.front().first;
+        level = q.front().first;
         TreeNode<int>* p = q.front().second;
         q.pop();
 
