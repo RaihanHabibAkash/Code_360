@@ -11,3 +11,5 @@
 [Solution 5682(Easy)](https://www.naukri.com/code360/problems/code-find-a-node_5682)
 
 [Solution 920383(Easy)](https://www.naukri.com/code360/problems/node-level_920383)
+
+[Solution 920519(Easy)](https://www.naukri.com/code360/problems/left-view-of-a-binary-tree_920519)
