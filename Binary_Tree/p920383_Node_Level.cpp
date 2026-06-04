@@ -43,3 +43,51 @@ For the first test case, the given binary tree is shown below.
 
 As node 10 is not present in the tree, so we return 0.
 */
+
+#include <bits/stdc++.h> 
+/************************************************************
+
+    Following is the TreeNode class structure
+
+    template <typename T>
+    class TreeNode {
+       public:
+        T val;
+        bool isOriginal;
+        TreeNode<T> *left;
+        TreeNode<T> *right;
+        
+        TreeNode(T val) {
+            this->val = val;
+            left = NULL;
+            right = NULL;
+        }
+    };
+
+************************************************************/
+
+int nodeLevel(TreeNode<int>* root, int searchedValue)
+{
+    int level = 1;
+    if(root == NULL) return 0;
+    queue<pair<int,TreeNode<int>*>> q;
+    q.push({level, root});
+
+    while(!q.empty()) {
+    // 1. node ber kore nia asha
+        int level = q.front().first;
+        TreeNode<int>* p = q.front().second;
+        q.pop();
+
+
+    // 2. oi node nia kaj
+        if(p->val == searchedValue) return level;
+
+    // 3. oi node ar children push in queue
+        if(p->left) q.push( {level+1, p->left} );
+        if(p->right) q.push( {level+1, p->right} );
+    }
+
+    // No matched values
+    return 0;
+}
