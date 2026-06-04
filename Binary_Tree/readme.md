@@ -9,3 +9,5 @@
 [Solution 920380(Easy)](https://www.naukri.com/code360/problems/left-sum_920380)
 
 [Solution 5682(Easy)](https://www.naukri.com/code360/problems/code-find-a-node_5682)
+
+[Solution 920383(Easy)](https://www.naukri.com/code360/problems/node-level_920383)
