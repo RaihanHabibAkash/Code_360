@@ -7,3 +7,5 @@
 [Solution 4609628(Easy)](https://www.naukri.com/code360/problems/height-of-binary-tree_4609628)
 
 [Solution 920380(Easy)](https://www.naukri.com/code360/problems/left-sum_920380)
+
+[Solution 5682(Easy)](https://www.naukri.com/code360/problems/code-find-a-node_5682)
