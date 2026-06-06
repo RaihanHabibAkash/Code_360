@@ -70,7 +70,7 @@ Time Limit: 1 sec
 
 int diameter(TreeNode<int> *root, int &mx) {
     // Base case
-    if(root == NULL) return 0;
+    if(!root) return 0;
 
     int l = diameter(root->left, mx);
     int r = diameter(root->right, mx);
