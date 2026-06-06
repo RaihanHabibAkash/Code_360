@@ -13,3 +13,5 @@
 [Solution 920383(Easy)](https://www.naukri.com/code360/problems/node-level_920383)
 
 [Solution 920519(Easy)](https://www.naukri.com/code360/problems/left-view-of-a-binary-tree_920519)
+
+[Solution 920552(Easy)](https://www.naukri.com/code360/problems/diameter-of-the-binary-tree_920552)
