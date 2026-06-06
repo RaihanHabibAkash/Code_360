@@ -68,14 +68,14 @@ Time Limit: 1 sec
 */
 
 
-int diameter(TreeNode<int> *root, int &mx) {
+int diameter(TreeNode<int> *root, int &mxDiameter) {
     // Base case
     if(!root) return 0;
 
-    int l = diameter(root->left, mx);
-    int r = diameter(root->right, mx);
+    int l = diameter(root->left, mxDiameter);
+    int r = diameter(root->right, mxDiameter);
     // Max diameter will be stored
-    mx = max(l+r, mx);
+    mxDiameter = max(l+r, mxDiameter);
 
     // Max height is returning
     return max(l, r) + 1;
