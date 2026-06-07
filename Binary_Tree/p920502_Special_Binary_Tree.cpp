@@ -2,7 +2,7 @@
 // Platform: Code360
 // Difficulty: Easy
 // Link: https://www.naukri.com/code360/problems/special-binary-tree_920502
-// Topics: Binnary tree post order traversal
+// Topics: Binnary tree Pre order traversal
 
 /*
 You are given an arbitrary binary tree. A binary tree is called special if every node of this tree has either zero or two children. You have to determine if the given binary tree is special or not.
@@ -68,13 +68,11 @@ bool full_binary_tree(BinaryTreeNode<int>* root) {
     // Once false alwasy returns false for upper condition
     if( (root->left && !root->right) || (!root->left && root->right) ) return false;
 
-    bool flag1 = full_binary_tree(root->left);
-    bool flag2 = full_binary_tree(root->right);
+    bool l = full_binary_tree(root->left);
+    bool r = full_binary_tree(root->right);
 
     // if one of than is false always will be false
-    if(!flag1 || !flag2) return false;
-
-    return true;
+    return l && r;
 }
 
 bool isSpecialBinaryTree(BinaryTreeNode<int>* root)
