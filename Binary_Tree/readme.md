@@ -15,3 +15,5 @@
 [Solution 920519(Easy)](https://www.naukri.com/code360/problems/left-view-of-a-binary-tree_920519)
 
 [Solution 920552(Easy)](https://www.naukri.com/code360/problems/diameter-of-the-binary-tree_920552)
+
+[Solution 920502(Easy)](https://www.naukri.com/code360/problems/special-binary-tree_920502)
